@@ -1,11 +1,108 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Car Showroom Management System</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>Your Car Website</title>
 </head>
 <body>
+    <!-- Menu button with a three-line "hamburger" icon -->
+    <div id="menu-container">
+        <button id="menu-button">
+            <span class="menu-icon">&#8801;</span> <!-- Unicode characters for three lines -->
+            <span>Menu</span>
+        </button>
+    </div>
 
+    <!-- Page 1: Video background and photo section -->
+    <div id="page1" class="page">
+        <video id="video-background" autoplay loop muted>
+            <source src="video/mclaren.mp4" type="video/mp4">
+            <!-- Add additional video formats for better browser compatibility -->
+        </video>
+        
+        <!-- Photo section below the video -->
+        <h1>ROLLS ROYCE</h1>
+        <H3> Strive above all for perfection</H3>
+        <div class="photo-section">
+            <div class="photo">
+                <img src="showcase/rr/rr.jpg" alt="Photo 1">
+            </div>
+            <div class="photo">
+                <img src="showcase/rr/rrphantom.jpg" alt="Photo 2">
+            </div>
+            <div class="photo">
+                <img src="showcase/rr/rrsweptail.jpg"  alt="Photo 3">
+            </div>
+        </div>
+         <h1>Mercedes-Benz</h1>
+         <h3>The Best or Nothing</h3>
+        <div class="photo-section">
+            <div class="photo">
+                <img src="showcase/merc/gls 600.jpg" alt="Photo 4">
+            </div>
+            <div class="photo">
+                <img src="showcase/merc/amg.jpg" alt="Photo 5">
+            </div>
+            <div class="photo">
+                <img src="showcase/merc/gwag.jpg" alt="Photo 6">
+            </div>
+        </div>
+        <h1>Mc Laren's</h1>
+        <h3>Prepare, commit, belong</h3>
+        
+        <div class="photo-section">
+            <div class="photo">
+                <img src="showcase/mclaren/720s.jpg" alt="Photo 4">
+            </div>
+            <div class="photo">
+                <img src="showcase/mclaren/speedtail.jpeg" alt="Photo 5">
+            </div>
+            <div class="photo">
+                <img src="showcase/mclaren/senna.jpg" alt="Photo 6">
+            </div>
+        </div>
+
+        
+    </div>
+
+    <!-- Popup menu -->
+    <div id="popup-menu" class="hidden">
+        <button id="close-menu" class="close-icon">&times;</button>
+        <ul>
+            <li>
+                <a href="#">
+                    <img src="logo/garage1.png" alt="Option 1 Icon">
+                   CARS IN GARAGE 
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="logo/sold2.png" alt="Option 2 Icon">
+                   SOLD CARS
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="logo/employee.jpg" alt="Option 3 Icon">
+                    EMPLOYEE DATA
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="logo/contact.png" alt="Option 4 Icon">
+                    CONTACT US
+                </a>
+            </li>
+            <li id="back-to-home"><a href="#">Back to Home</a></li>
+        </ul>
+    </div>
+
+    <!-- Page 2: Header -->
+    
+
+    <script src="script.js"></script>
 </body>
 </html>
