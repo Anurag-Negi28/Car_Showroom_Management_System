@@ -275,6 +275,10 @@ footer {
     justify-content: space-between;
     padding: 0px;
 }
+.photo-section img:hover{
+    transition:all 1s;
+    transform:scale(1.1);
+}
 
 .photo {
     flex: 1;
