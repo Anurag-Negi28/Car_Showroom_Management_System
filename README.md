@@ -26,6 +26,14 @@ Access reports in the "Analytics" section to gain insights into your showroom's 
 Track sales trends, customer engagement, and inventory turnover.
 Export reports for further analysis.
 
+## Customer Database
+Navigate to the "Customers" section to manage customer records.
+Add new customer profiles with their details and preferences.
+
+## Inventory Management
+Click on the "Inventory" section to view, add, edit, or remove cars from your inventory.
+Use the search and filter options to quickly locate specific cars.
+
 
 ## Feedback
 
