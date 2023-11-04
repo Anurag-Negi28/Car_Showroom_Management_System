@@ -16,6 +16,17 @@ Our system offers a comprehensive set of features to streamline your car showroo
 
 We would like to express our heartfelt appreciation to the contributors and the open-source community who have made this project possible. Your contributions and support have been invaluable in shaping the success of this project.
 
+## Sales and Purchase Tracking
+In the "Sales" section, record details of each sale or purchase.
+View a summary of recent transactions and their status.
+Generate invoices and receipts for customers.
+
+##  Reporting and Analytics
+Access reports in the "Analytics" section to gain insights into your showroom's performance.
+Track sales trends, customer engagement, and inventory turnover.
+Export reports for further analysis.
+
+
 ## Feedback
 
 Your feedback is important to us. It helps us improve this project and make it even more effective for car showroom management. If you have any suggestions, bug reports, or feature requests, please don't hesitate to [create an issue](https://github.com/your-username/car-showroom-management-system/issues) on our GitHub repository. We welcome your input and look forward to making this system even better.
