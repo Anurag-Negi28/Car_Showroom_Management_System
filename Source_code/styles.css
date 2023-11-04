@@ -292,3 +292,15 @@ footer {
     max-width: 100%;
     height: auto;
 }
+
+#logo-container {
+    position: fixed;
+    top: 20px;
+    right: 20px; /* Adjust the right distance as needed */
+    z-index: 101; /* Ensure it's displayed above the video and page content */
+}
+
+#logo-container img {
+    width: 80px; /* Set the desired width for your logo */
+    height: 70px; /* Maintain the aspect ratio */
+}
