@@ -42,10 +42,10 @@ document.addEventListener("DOMContentLoaded", function() {
         popupMenu.classList.add("hidden");
     });
 
-    // Handle "Back to Home" button click
+    
     const backToHomeButton = document.getElementById("back-to-home");
     backToHomeButton.addEventListener("click", function() {
-        window.location.href = "index.html"; // Replace with your home page URL
+        window.location.href = "index.html"; 
     });
 });
 document.addEventListener("DOMContentLoaded", function() {
@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Handle "Back to Home" button click
     const backToHomeButton = document.getElementById("back-to-home");
     backToHomeButton.addEventListener("click", function() {
-        window.location.href = "index.html"; // Replace with your home page URL
+        window.location.href = "index.html"; 
     });
 });
 // JavaScript to control video and page visibility
@@ -92,9 +92,9 @@ document.addEventListener("DOMContentLoaded", function() {
         logo.style.opacity = opacity;
 
     logo.addEventListener("mouseenter", function() {
-        // Add a hover effect (e.g., scaling the logo)
+        
         logo.style.transform = "scale(1.1)";
-        // You can also add other hover effects like changing opacity or background color
+       
     });
 
     logo.addEventListener("mouseleave", function() {
@@ -107,10 +107,10 @@ document.addEventListener("DOMContentLoaded", function() {
         // Prevent the default behavior of the anchor element (e.g., navigating to a URL)
         event.preventDefault();
 
-        // Define the URL you want to navigate to when the logo is clicked
-        const targetURL = "index.html"; // Replace with your desired URL
+        
+        const targetURL = "index.html"; 
 
-        // Use JavaScript to navigate to the target URL
+        // to navigate to the target URL
         window.location.href = targetURL;
 
     });
