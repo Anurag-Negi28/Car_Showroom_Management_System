@@ -1,4 +1,3 @@
-/* Reset some default styles */
 * {
     margin: 0;
     padding: 0;
@@ -182,6 +181,7 @@ footer {
     color: #fff;
 }
 
+
 /* Back to Home button */
 #back-to-home {
     padding: 15px;
@@ -265,19 +265,18 @@ footer {
     border: 0px solid rgb(247, 245, 245); /* Optional border */
 }
 
+
+
+
 .photo img {
     max-width: 100%;
     height: auto;
 }
 .photo-section {
-    margin-top: 50px;
+    margin-top: 5px;
     display: flex;
     justify-content: space-between;
     padding: 0px;
-}
-.photo-section img:hover{
-    transition:all 1s;
-    transform:scale(1.1);
 }
 
 .photo {
@@ -292,15 +291,45 @@ footer {
     max-width: 100%;
     height: auto;
 }
-
-#logo-container {
-    position: fixed;
-    top: 20px;
-    right: 20px; /* Adjust the right distance as needed */
-    z-index: 101; /* Ensure it's displayed above the video and page content */
+/* Styling for the McLaren background video section */
+.mclaren-background-video {
+    position: relative;
+    width: 100%;
+    height: 100px; /* Set the desired height for the video section */
+    overflow: hidden;
+    z-index: -1; /* Move the video behind other content */
 }
 
-#logo-container img {
-    width: 80px; /* Set the desired width for your logo */
-    height: 70px; /* Maintain the aspect ratio */
+/* Styling for the video background inside the McLaren section */
+#mclaren-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Styling for the video overlay */
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+/* Styling for the text overlay */
+.text-overlay {
+    color: rgb(148, 148, 148); /* Set the desired text color */
+    text-align: left;
+}
+
+.text-overlay h1 {
+    font-size: 36px; color:silver
+}
+
+.text-overlay h3 {
+    font-size: 20px; color:silver
 }
