@@ -20,6 +20,8 @@ document.addEventListener("DOMContentLoaded", function() {
         backButton.classList.remove("hidden");
         popupMenu.style.display = "block";
     });
+    
+    
 
     backButton.addEventListener("click", function() {
         menuButton.classList.remove("hidden");
@@ -37,15 +39,16 @@ document.addEventListener("DOMContentLoaded", function() {
         menuButton.classList.add("hidden");
         popupMenu.classList.remove("hidden");
     });
+    
 
     closeMenuButton.addEventListener("click", function() {
         popupMenu.classList.add("hidden");
     });
 
-    
+    // Handle "Back to Home" button click
     const backToHomeButton = document.getElementById("back-to-home");
     backToHomeButton.addEventListener("click", function() {
-        window.location.href = "index.html"; 
+        window.location.href = "index.html"; // Replace with your home page URL
     });
 });
 document.addEventListener("DOMContentLoaded", function() {
@@ -64,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Handle "Back to Home" button click
     const backToHomeButton = document.getElementById("back-to-home");
     backToHomeButton.addEventListener("click", function() {
-        window.location.href = "index.html"; 
+        window.location.href = "index.html"; // Replace with your home page URL
     });
 });
 // JavaScript to control video and page visibility
@@ -78,42 +81,5 @@ document.addEventListener("DOMContentLoaded", function() {
         // When the video ends, hide page 1 and display page 2
         page1.style.display = "none";
         page2.style.display = "block";
-        })
     });
-        const logo = document.getElementById("logo-container");
-            // Define the scroll event listener
-    window.addEventListener("scroll", function() {
-        // Calculate the opacity based on the scroll position
-        const scrollY = window.scrollY;
-        const maxScroll = 10; // Adjust this value to control the scroll range for opacity change
-        const opacity = 1 - Math.min(1, scrollY / maxScroll);
-
-        // Update the logo's opacity
-        logo.style.opacity = opacity;
-
-    logo.addEventListener("mouseenter", function() {
-        
-        logo.style.transform = "scale(1.1)";
-       
-    });
-
-    logo.addEventListener("mouseleave", function() {
-        // Remove the hover effect (e.g., scale back to the original size)
-        logo.style.transform = "scale(1)";
-    });
-        const logoLink = document.getElementById("logo-link");
-
-    logoLink.addEventListener("click", function(event) {
-        // Prevent the default behavior of the anchor element (e.g., navigating to a URL)
-        event.preventDefault();
-
-        
-        const targetURL = "index.html"; 
-
-        // to navigate to the target URL
-        window.location.href = targetURL;
-
-    });
-
-
 });
