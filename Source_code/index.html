@@ -6,23 +6,48 @@
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
     <title>Your Car Website</title>
-    <link rel="icon" type="image/png" href="logo/logoV3.png">
-
 </head>
 <body>
     <!-- Menu button with a three-line "hamburger" icon -->
     <div id="menu-container">
-        <button id="menu-button">
+        <button id="menu-button" onclick="toggleMenu()">
             <span class="menu-icon">&#8801;</span> <!-- Unicode characters for three lines -->
             <span>Menu</span>
         </button>
     </div>
-        <!-- Logo container -->
-    <div id="logo-container">
-        <a href="index.html" id="logo-link">
-        <img src="logo/Animationw.gif" alt="logo">
-    </a>
+
+    <div id="popup-menu" class="hidden">
+        <button id="close-menu" class="close-icon" onclick="toggleMenu()">&times;</button>
+        <!-- Add a close button with an onclick event -->
+        <ul>
+            <li>
+                <a href="#">
+                    <img src="logo/garage1.png" alt="Option 1 Icon">
+                    CARS IN GARAGE 
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="logo/sold2.png" alt="Option 2 Icon">
+                   SOLD CARS
+                </a>
+            </li>
+            <li>
+                <a href="emp.html">
+                    <img src="logO/employee.jpg" alt="Employee Data Icon">
+                    EMPLOYEE DATA
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="logo/contact.png" alt="Option 4 Icon">
+                    CONTACT US
+                </a>
+            </li>
+            <li id="back-to-home"><a href="#">Back to Home</a></li>
+        </ul>
     </div>
+
 
 
     <!-- Page 1: Video background and photo section -->
@@ -59,9 +84,22 @@
                 <img src="showcase/merc/gwag.jpg" alt="Photo 6">
             </div>
         </div>
-        <h1>Mc Laren's</h1>
-        <h3>Prepare, commit, belong</h3>
-        
+
+     <!-- McLaren background video section -->
+<!-- McLaren background video section -->
+<div class="mclaren-background-video">
+    <video id="mclaren-video" autoplay loop muted>
+        <source src="car name bg/mclaren.mp4" type="video/mp4">
+        <!-- Add additional video formats for better browser compatibility -->
+    </video>
+    <div class="video-overlay">
+        <div class="text-overlay">
+            <h1>McLaren's</h1>
+            <h3>Prepare, commit, belong</h3>
+        </div>
+    </div>
+</div>
+      
         <div class="photo-section">
             <div class="photo">
                 <img src="showcase/mclaren/720s.jpg" alt="Photo 4">
@@ -77,41 +115,5 @@
         
     </div>
 
-    <!-- Popup menu -->
-    <div id="popup-menu" class="hidden">
-        <button id="close-menu" class="close-icon">&times;</button>
-        <ul>
-            <li>
-                <a href="#">
-                    <img src="logo/garage1.png" alt="Option 1 Icon">
-                   CARS IN GARAGE 
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="logo/sold2.png" alt="Option 2 Icon">
-                   SOLD CARS
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="logo/employee.jpg" alt="Option 3 Icon">
-                    EMPLOYEE DATA
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="logo/contact.png" alt="Option 4 Icon">
-                    CONTACT US
-                </a>
-            </li>
-            <li id="back-to-home"><a href="#">Back to Home</a></li>
-        </ul>
-    </div>
-
-    <!-- Page 2: Header -->
-    
-
-    <script src="script.js"></script>
 </body>
 </html>
