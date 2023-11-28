@@ -59,6 +59,10 @@
 <div class="login-container">
         <img class="car-image" src="car_image.jpg" alt="Car Image" width="150">
         <h2>Car Management Showroom</h2>
+ <form class="login-form" action="login_process.php" method="post">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
 
         
        
