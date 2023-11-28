@@ -1,0 +1,8 @@
+<p> here is our listings</p>
+
+{% for listing in listings %}
+<ul>
+<li> <a href ='listing/{{ listing.id }}'>{{ listing }}</a></li>
+</ul>
+{% endfor %}
+<a href = '/create'>Add new listing</a>
