@@ -21,4 +21,17 @@
             margin: 20px auto;
             text-align: justify;
         }
+.about-container h2 {
+            color: #333;
+        }
+
+        .team-section {
+            margin-top: 30px;
+        }
+
+        .team-member {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
 
