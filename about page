@@ -76,5 +76,12 @@
                     <!-- Add more details about Anurag as needed -->
                 </div>
             </div>
-
+<div class="team-member">
+                <img src="piyush.jpg" alt="Piyush" width="80">
+                <div class="team-member-info">
+                    <h4>Piyush</h4>
+                    <p>Employee 4</p>
+                    <!-- Add more details about Piyush as needed -->
+                </div>
+            </div>
 
