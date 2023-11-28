@@ -92,4 +92,15 @@
                     <!-- Add more details about Ansh as needed -->
                 </div>
             </div>
+ <div class="team-member">
+                <img src="madhvendra.jpg" alt="Madvhendra" width="80">
+                <div class="team-member-info">
+                    <h4>Madhvendra</h4>
+                    <p>Employee 6</p>
+                    <!-- Add more details about Madhvendra as needed -->
+                </div>
+            </div>
+
+        </div>
+    </div>
 
