@@ -68,4 +68,13 @@
                     <!-- Add more details about Vrinda as needed -->
                 </div>
             </div>
+<div class="team-member">
+                <img src="anurag.jpg" alt="Anurag" width="80">
+                <div class="team-member-info">
+                    <h4>Anurag</h4>
+                    <p>Employee 3</p>
+                    <!-- Add more details about Anurag as needed -->
+                </div>
+            </div>
+
 
