@@ -60,5 +60,12 @@
                     <!-- Add more details about Hardik as needed -->
                 </div>
             </div>
-
+<div class="team-member">
+                <img src="vrinda.jpg" alt="Vrinda" width="80">
+                <div class="team-member-info">
+                    <h4>Vrinda</h4>
+                    <p>Employee 2</p>
+                    <!-- Add more details about Vrinda as needed -->
+                </div>
+            </div>
 
