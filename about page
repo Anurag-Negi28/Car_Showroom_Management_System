@@ -84,4 +84,12 @@
                     <!-- Add more details about Piyush as needed -->
                 </div>
             </div>
+<div class="team-member">
+                <img src="ansh.jpg" alt="Ansh" width="80">
+                <div class="team-member-info">
+                    <h4>Ansh</h4>
+                    <p>Employee 5</p>
+                    <!-- Add more details about Ansh as needed -->
+                </div>
+            </div>
 
