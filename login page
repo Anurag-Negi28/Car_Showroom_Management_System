@@ -45,5 +45,17 @@
             border: 1px solid #ccc;
             border-radius: 4px;
         }
+         .form-group input[type="submit"] {
+            background-color: #4caf50;
+            color: #fff;
+            cursor: pointer;
+        }
+        .form-group input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
         
        
