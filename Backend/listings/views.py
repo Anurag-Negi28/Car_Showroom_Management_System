@@ -54,3 +54,6 @@ def index(request):
 
 def admin(request):
     return redirect('/admin')
+
+def manager(request):
+    return render(request,'Manager_login.html')

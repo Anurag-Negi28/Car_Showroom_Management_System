@@ -9,6 +9,8 @@ urlpatterns = [
     path('delete/<id>/',views.delete,name='delete'),
     path('listing/<id>/',views.listing,name='listing'),
     path('index/',views.index,name='index'),
+    path('admin/',views.admin,name='admin'),
+    path('Manager_login/',views.manager,name='manager'),
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
