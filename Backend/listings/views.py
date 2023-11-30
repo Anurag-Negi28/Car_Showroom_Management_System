@@ -49,3 +49,6 @@ def delete(request,id):
     listing.delete()
     return redirect('/')
 
+def index(request):
+    return render(request,'index.html')
+

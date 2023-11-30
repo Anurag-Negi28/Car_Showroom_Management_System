@@ -8,6 +8,7 @@ urlpatterns = [
     path('update/<id>/',views.update,name='update'),
     path('delete/<id>/',views.delete,name='delete'),
     path('listing/<id>/',views.listing,name='listing'),
+    path('index/',views.index,name='index'),
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
