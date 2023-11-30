@@ -1,8 +1,9 @@
-<p> here is our listings</p>
+<h3>Here are our Listings of Car Models</h3>
 
 {% for listing in listings %}
-<ul>
-<li> <a href ='listing/{{ listing.id }}'>{{ listing }}</a></li>
-</ul>
+<hr><a href ='listing/{{ listing.id }}'>{{ listing }}</a>
+<hr>
+    <img src = '{{ listing.image.url }}' width= "400" height="300"></img><br>
+<hr>
 {% endfor %}
 <a href = '/create'>Add new listing</a>
