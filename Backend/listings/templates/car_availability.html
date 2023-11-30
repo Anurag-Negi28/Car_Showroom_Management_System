@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Showroom</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            margin: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .sold {
+            background-color: #FF6347; /* Tomato */
+        }
+
+        .available {
+            background-color: #98FB98; /* PaleGreen */
+        }
+
+        .on-hold {
+            background-color: #FFD700; /* Gold */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Car Showroom</h1>
+    </header>
+
+    <section>
+        <h2>Car Inventory</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Car Model</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="sold">
+                    <td>Car Model 1</td>
+                    <td>Sold</td>
+                </tr>
+                <tr class="available">
+                    <td>Car Model 2</td>
+                    <td>Available</td>
+                </tr>
+                <tr class="on-hold">
+                    <td>Car Model 3</td>
+                    <td>On Hold</td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+    </section>
+</body>
+
+</html>
