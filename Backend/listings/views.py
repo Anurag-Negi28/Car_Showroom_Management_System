@@ -52,3 +52,5 @@ def delete(request,id):
 def index(request):
     return render(request,'index.html')
 
+def admin(request):
+    return redirect('/admin')
