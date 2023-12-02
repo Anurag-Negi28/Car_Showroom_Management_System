@@ -126,6 +126,10 @@ th {
     const table = document.getElementById('mechanicTable');
     const newRow = table.insertRow(-1);
     const statusClass = mechanicStatus === 'Busy' ? 'busy' : 'free';
+newRow.innerHTML = `
+      <td>${mechanicName}</td>
+      <td>${mechanicSalary}</td>
+      <td>${mechanicSkill}</td>
 
 
 
