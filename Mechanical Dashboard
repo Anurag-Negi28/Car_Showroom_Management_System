@@ -82,5 +82,11 @@ th {
 <div class="mechanic-info">
   <h2>Mechanic Dashboard</h2>
 
+  <label for="mechanicName">Name:</label>
+  <input type="text" id="mechanicName"><br>
+  
+  <label for="mechanicSalary">Salary:</label>
+  <input type="text" id="mechanicSalary"><br>
+
 
 
