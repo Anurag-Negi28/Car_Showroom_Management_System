@@ -114,5 +114,12 @@ th {
   </tr>
 </table>
 
+<script>
+  function saveMechanic() {
+    const mechanicName = document.getElementById('mechanicName').value;
+    const mechanicSalary = document.getElementById('mechanicSalary').value;
+    const mechanicSkill = document.getElementById('mechanicSkill').value;
+    const mechanicMobile = document.getElementById('mechanicMobile').value;
+
 
 
