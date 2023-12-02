@@ -87,6 +87,11 @@ th {
   
   <label for="mechanicSalary">Salary:</label>
   <input type="text" id="mechanicSalary"><br>
+ <label for="mechanicSkill">Skill:</label>
+  <input type="text" id="mechanicSkill"><br>
+  
+  <label for="mechanicMobile">Mobile Number:</label>
+  <input type="text" id="mechanicMobile"><br>
 
 
 
