@@ -130,6 +130,15 @@ newRow.innerHTML = `
       <td>${mechanicName}</td>
       <td>${mechanicSalary}</td>
       <td>${mechanicSkill}</td>
+ <td>${mechanicMobile}</td>
+      <td class="${statusClass}">${mechanicStatus}</td>
+      <td>${mechanicAddress}</td>
+    `;
+  }
+</script>
+
+</body>
+</html>
 
 
 
