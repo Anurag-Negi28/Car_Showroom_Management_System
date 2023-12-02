@@ -27,3 +27,15 @@
       margin-bottom: 6px;
       color: #666;
     }
+input[type="text"],
+    input[type="checkbox"],
+    textarea,
+    button {
+      width: calc(100% - 12px);
+      padding: 8px;
+      margin-bottom: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      font-size: 14px;
+    }
