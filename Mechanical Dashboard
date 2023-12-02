@@ -39,3 +39,13 @@ input[type="text"],
       box-sizing: border-box;
       font-size: 14px;
     }
+ input[type="checkbox"] {
+      width: auto;
+    }
+
+    button {
+      background-color: #4caf50;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
