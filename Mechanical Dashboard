@@ -120,6 +120,12 @@ th {
     const mechanicSalary = document.getElementById('mechanicSalary').value;
     const mechanicSkill = document.getElementById('mechanicSkill').value;
     const mechanicMobile = document.getElementById('mechanicMobile').value;
+  const mechanicStatus = document.getElementById('mechanicStatus').checked ? 'Free' : 'Busy';
+    const mechanicAddress = document.getElementById('mechanicAddress').value;
+
+    const table = document.getElementById('mechanicTable');
+    const newRow = table.insertRow(-1);
+    const statusClass = mechanicStatus === 'Busy' ? 'busy' : 'free';
 
 
 
