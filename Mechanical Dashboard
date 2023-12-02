@@ -100,6 +100,19 @@ th {
   
   <label for="mechanicAddress">Address:</label>
   <textarea id="mechanicAddress"></textarea><br>
+  <button onclick="saveMechanic()">Save</button>
+</div>
+
+<table id="mechanicTable">
+  <tr>
+    <th>Name</th>
+    <th>Salary</th>
+    <th>Skill</th>
+    <th>Mobile Number</th>
+    <th>Status</th>
+    <th>Address</th>
+  </tr>
+</table>
 
 
 
