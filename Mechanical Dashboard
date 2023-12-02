@@ -92,6 +92,14 @@ th {
   
   <label for="mechanicMobile">Mobile Number:</label>
   <input type="text" id="mechanicMobile"><br>
+ <label for="mechanicStatus">Working Status:</label>
+  <label class="switch">
+    <input type="checkbox" id="mechanicStatus">
+    <span class="slider"></span>
+  </label><br>
+  
+  <label for="mechanicAddress">Address:</label>
+  <textarea id="mechanicAddress"></textarea><br>
 
 
 
