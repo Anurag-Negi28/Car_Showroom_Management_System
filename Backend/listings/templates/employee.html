@@ -1,0 +1,102 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'emp.css' %}">
+    <title>Employee Data</title>
+</head>
+<body>
+
+<div class="page-container">
+
+        <a href="index.html" class="home-button">Home</a>
+
+    <div class="search-bar">
+        <input type="text" id="employeeSearch" placeholder="Search employees by name..." oninput="searchEmployees()">
+    </div>
+
+    <div class="content-container">
+        
+    <h1>Employee Data</h1>
+
+    <div class="status-section">
+        <div class="status-label">Status Information:</div>
+
+        <div class="status-circle" style="background-color: #4CAF50;"></div>
+        <div class="status-label">Free</div>
+
+        <div class="status-circle" style="background-color: #FFA500;"></div>
+        <div class="status-label">Working</div>
+
+        <div class="status-circle" style="background-color: #FF0000;"></div>
+        <div class="status-label">Absent</div>
+    </div>
+
+    <div class="employee-section">
+        <div class="photo">
+            <img src="{% static  'empphoto/emp1.jpg.avif' %}" alt="Employee 1 Photo">
+        </div>
+        <div class="details">
+            <h2>Sidharth</h2>
+            <p>Position: Car Representative</p>
+            <p>Email: Sidharth@gmail.com</p>
+            <p>Contact: +91 8829021001</p>
+            <p>Status: Free</p>
+            <p>Salary: Rs 1,00,000</p>
+        </div>
+        <div class="status-symbol" style="background-color: #4CAF50;"></div>
+    </div>
+
+    <div class="employee-section">
+        <div class="photo">
+            <img src="{% static 'empphoto/emp2.jpg' %}" alt="Employee 2 Photo">
+        </div>
+        <div class="details">
+            <h2>Jayvardhan</h2>
+            <p>Position: Marketing Specialist</p>
+            <p>Email: Jaynegi@gmail.com</p>
+            <p>Contact: +91 9976787811</p>
+            <p>Status: Working</p>
+            <p>Salary: Rs 1,10,000</p>
+        </div>
+        <div class="status-symbol" style="background-color: orange"></div>
+    </div>
+
+    <div class="employee-section">
+        <div class="photo">
+            <img src="{% static 'empphoto/emp3.jpg' %}" alt="Employee 3 Photo">
+        </div>
+        <div class="details">
+            <h2>Ronnie</h2>
+            <p>Position: Customer Service Representative </p>
+            <p>Email: Ronnydon@gmail.com</p>
+            <p>Contact: +91 8898016833</p>
+            <p>Status: Free</p>
+            <p>Salary: Rs 80,000</p>
+        </div>
+        <div class="status-symbol" style="background-color: #4CAF50;"></div>
+    </div>
+
+    <div class="employee-section">
+        <div class="photo">
+            <img src="{% static 'empphoto/emp42.jpg' %}" alt="Employee 4 Photo">
+        </div>
+        <div class="details">
+            <h2>Aviral</h2>
+            <p>Position: Salespeople</p>
+            <p>Email: Aviralkhanna@gmail.com</p>
+            <p>Contact: +91 7017518477</p>
+            <p>Status: Working</p>
+            <p>Salary: Rs 1,00,000</p>
+        </div>
+        <div class="status-symbol" style="background-color: #FFA500;"></div>
+    </div>
+
+</div>
+<script src="{% static 'emp.js' %}"></script>
+
+</body>
+</html>
+

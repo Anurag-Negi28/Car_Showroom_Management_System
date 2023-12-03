@@ -60,3 +60,6 @@ def manager(request):
 
 def manager_dashboard(request):
     return render(request,'manager_dashboard.html')
+
+def car_availability(request):
+    return render(request,'car_availability.html')
