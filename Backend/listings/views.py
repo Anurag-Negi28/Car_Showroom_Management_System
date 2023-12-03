@@ -57,3 +57,6 @@ def admin(request):
 
 def manager(request):
     return render(request,'Manager_login.html')
+
+def manager_dashboard(request):
+    return render(request,'manager_dashboard.html')

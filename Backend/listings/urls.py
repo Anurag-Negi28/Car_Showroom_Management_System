@@ -11,6 +11,7 @@ urlpatterns = [
     path('index/',views.index,name='index'),
     path('admin/',views.admin,name='admin'),
     path('Manager_login/',views.manager,name='manager'),
+    path('Manager_login/manager_dashboard.html',views.manager_dashboard,name='manager_dashboard'),
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)

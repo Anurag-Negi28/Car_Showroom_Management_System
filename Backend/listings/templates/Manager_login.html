@@ -59,7 +59,8 @@
 <div class="login-container">
         <img class="car-image" src="car_image.jpg" alt="Car Image" width="150">
         <h2>Deals On Wheels Manager</h2>
- <form class="login-form" action="login_process.php" method="post">
+ <form class="login-form" action="manager_dashboard.html" method="post">
+    {% csrf_token %}
             <div class="form-group">
                 <label for="username">Username:</label>
                 <input type="text" id="username" name="username" required>
