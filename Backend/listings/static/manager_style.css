@@ -121,6 +121,10 @@ main > header {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.04);
   border-radius: 5px;
 }
+.content-columns .col .item {
+  font-size: 15px;
+  text-align: center;
+}
 .content-columns .col:nth-child(1) {
   border-top: 4px solid #50aaee;
 }
