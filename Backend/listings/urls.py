@@ -22,6 +22,7 @@ urlpatterns = [
     path('index/employee/',views.employee,name='employee'),
     path('index/listings/',views.listings,name='listings'),
     path('index/car_availability/',views.car_availability,name='car_availability'),
+    path('Manager_login/manager_dashboard/index/',views.home,name='home'),
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
