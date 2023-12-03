@@ -72,3 +72,6 @@ def mechanic_dashboard(request):
 
 def customer(request):
     return render(request,'customer.html')
+
+def attendance(request):
+    return render(request,'attendance.html')

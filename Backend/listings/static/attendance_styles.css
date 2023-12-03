@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: rgba(144, 176, 204, 0.282);
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    
+}
+
+th, td {
+    border: 2px solid #2f2d2d;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #ffffff;
+}
+
+.status-present {
+    color: green;
+    font-weight: bold;
+}
+
+.status-absent {
+    color: red;
+    font-weight: bold;
+}
