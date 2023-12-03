@@ -17,6 +17,10 @@ urlpatterns = [
     path('Manager_login/manager_dashboard/Mechanical_Dashboard/',views.mechanic_dashboard,name='mechanic_dashboard'),
     path('Manager_login/manager_dashboard/customer/',views.customer,name='customer'),
     path('Manager_login/manager_dashboard/attendance/',views.attendance,name='attendance'),
+    path('about_page/',views.about,name='about'),
+    path('index/contact/',views.contact,name='contact'),
+    path('index/employee/',views.employee,name='employee'),
+    path('index/listings/',views.listings,name='listings'),
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)

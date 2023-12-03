@@ -75,3 +75,9 @@ def customer(request):
 
 def attendance(request):
     return render(request,'attendance.html')
+
+def about(request):
+    return render(request, 'about_page.html')
+
+def contact(request):
+    return render(request, 'contact.html')

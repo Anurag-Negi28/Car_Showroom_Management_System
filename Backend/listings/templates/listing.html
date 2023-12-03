@@ -1,5 +1,67 @@
-here is our list single </br>
-<P> Name: {{listing.name }} -- Price:{{ listing.price }}</P>
-<img src = '{{ listing.image.url }}' width= "400" height="300"></img>
-<a href = '/delete/{{ listing.id }}'>delete</a></br>
-<a href = '/update/{{ listing.id }}'>update</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listing Details</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #007bff;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Here are the details of {{listing.name}}</h2>
+    
+    <p>Name: {{listing.name}} -- Price: {{listing.price}}</p>
+
+    <img src="{{listing.image.url}}" width="400" height="300" alt="Listing Image">
+
+    <a href="/delete/{{listing.id}}">Delete</a>
+    <a href="/update/{{listing.id}}">Update</a>
+
+</body>
+</html>
