@@ -69,3 +69,6 @@ def employee(request):
 
 def mechanic_dashboard(request):
     return render(request,'Mechanical_Dashboard.html')
+
+def customer(request):
+    return render(request,'customer.html')
