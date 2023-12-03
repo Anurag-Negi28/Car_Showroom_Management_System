@@ -66,3 +66,6 @@ def car_availability(request):
 
 def employee(request):
     return render(request,'employee.html')
+
+def mechanic_dashboard(request):
+    return render(request,'Mechanical_Dashboard.html')

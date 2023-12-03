@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mechanic Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+.mechanic-info {
+      background-color: #fff;
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+.mechanic-info h2 {
+      text-align: center;
+      color: #333;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 6px;
+      color: #666;
+    }
+input[type="text"],
+    input[type="checkbox"],
+    textarea,
+    button {
+      width: calc(100% - 12px);
+      padding: 8px;
+      margin-bottom: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      font-size: 14px;
+    }
+ input[type="checkbox"] {
+      width: auto;
+    }
+
+    button {
+      background-color: #4caf50;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+button:hover {
+      background-color: #45a049;
+    }
+
+    /* Table styles */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+th {
+      background-color: #f2f2f2;
+    }
+
+    .busy {
+      color: red;
+    }
+
+    .free {
+      color: green;
+    }
+  </style>
+</head>
+<body>
+
+<div class="mechanic-info">
+  <h2>Mechanic Dashboard</h2>
+
+  <label for="mechanicName">Name:</label>
+  <input type="text" id="mechanicName"><br>
+  
+  <label for="mechanicSalary">Salary:</label>
+  <input type="text" id="mechanicSalary"><br>
+ <label for="mechanicSkill">Skill:</label>
+  <input type="text" id="mechanicSkill"><br>
+  
+  <label for="mechanicMobile">Mobile Number:</label>
+  <input type="text" id="mechanicMobile"><br>
+ <label for="mechanicStatus">Working Status:</label>
+  <label class="switch">
+    <input type="checkbox" id="mechanicStatus">
+    <span class="slider"></span>
+  </label><br>
+  
+  <label for="mechanicAddress">Address:</label>
+  <textarea id="mechanicAddress"></textarea><br>
+  <button onclick="saveMechanic()">Save</button>
+</div>
+
+<table id="mechanicTable">
+  <tr>
+    <th>Name</th>
+    <th>Salary</th>
+    <th>Skill</th>
+    <th>Mobile Number</th>
+    <th>Status</th>
+    <th>Address</th>
+  </tr>
+</table>
+
+<script>
+  function saveMechanic() {
+    const mechanicName = document.getElementById('mechanicName').value;
+    const mechanicSalary = document.getElementById('mechanicSalary').value;
+    const mechanicSkill = document.getElementById('mechanicSkill').value;
+    const mechanicMobile = document.getElementById('mechanicMobile').value;
+  const mechanicStatus = document.getElementById('mechanicStatus').checked ? 'Free' : 'Busy';
+    const mechanicAddress = document.getElementById('mechanicAddress').value;
+
+    const table = document.getElementById('mechanicTable');
+    const newRow = table.insertRow(-1);
+    const statusClass = mechanicStatus === 'Busy' ? 'busy' : 'free';
+
+    newRow.innerHTML = `
+      <td>${mechanicName}</td>
+      <td>${mechanicSalary}</td>
+      <td>${mechanicSkill}</td>
+      <td>${mechanicMobile}</td>
+      <td class="${statusClass}">${mechanicStatus}</td>
+      <td>${mechanicAddress}</td>
+    `;
+  }
+</script>
+
+</body>
+</html>
+    
+
+
+
