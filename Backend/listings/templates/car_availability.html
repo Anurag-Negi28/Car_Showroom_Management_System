@@ -1,91 +1,128 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Car Showroom</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
-            margin: 0;
-            padding: 0;
-        }
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        margin: 0;
+        padding: 0;
+      }
 
-        header {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 1em;
-        }
+      header {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1em;
+      }
 
-        section {
-            margin: 20px;
-        }
+      section {
+        margin: 20px;
+      }
 
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
 
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
-        }
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }
 
-        th {
-            background-color: #4CAF50;
-            color: white;
-        }
+      th {
+        background-color: #af4c4c;
+        color: white;
+      }
 
-        .sold {
-            background-color: #FF6347; /* Tomato */
-        }
+      .sold {
+        background-color: #ff6347; /* Tomato */
+      }
 
-        .available {
-            background-color: #98FB98; /* PaleGreen */
-        }
+      .available {
+        background-color: #98fb98; /* PaleGreen */
+      }
 
-        .on-hold {
-            background-color: #FFD700; /* Gold */
-        }
+      .on-hold {
+        background-color: #ffd700; /* Gold */
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <h1>Car Showroom</h1>
+      <h1>Car Showroom</h1>
     </header>
 
     <section>
-        <h2>Car Inventory</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Car Model</th>
-                    <th>Status</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="sold">
-                    <td>Car Model 1</td>
-                    <td>Sold</td>
-                </tr>
-                <tr class="available">
-                    <td>Car Model 2</td>
-                    <td>Available</td>
-                </tr>
-                <tr class="on-hold">
-                    <td>Car Model 3</td>
-                    <td>On Hold</td>
-                </tr>
-                <!-- Add more rows as needed -->
-            </tbody>
-        </table>
+      <h2>Car Inventory</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Car Model</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="available">
+            <td>Rolls Royce Ghost</td>
+            <td>Available</td>
+          </tr>
+          <tr class="on-hold">
+            <td>Rolls Royce Phantom</td>
+            <td>on-sold</td>
+          </tr>
+          <tr class="available">
+            <td>Rolls Royce Sweptail</td>
+            <td>Available</td>
+          </tr>
+          <tr class="sold">
+            <td>Mercedes AMG GT</td>
+            <td>sold</td>
+          </tr>
+          <tr class="available">
+            <td>Mercedes GLS 600</td>
+            <td>Available</td>
+          </tr>
+          <tr class="available">
+            <td>Mercedes G-Wagon</td>
+            <td>Available</td>
+          </tr>
+          <tr class="sold">
+            <td>Mclaren 720s</td>
+            <td>sold</td>
+          </tr>
+          <tr class="on-hold">
+            <td>Mclaren Senna</td>
+            <td>on-hold</td>
+          </tr>
+          <tr class="available">
+            <td>McLaren SpeedTail</td>
+            <td>Available</td>
+          </tr>
+          <!-- Add more rows as needed -->
+        </tbody>
+      </table>
     </section>
-</body>
+  </body>
+  <table>
+    <tr>
+      <th>availaibility</th>
 
+      <th>on-hold</th>
+      <th>sold</th>
+    </tr>
+    <tr>
+      <td><div style="background-color: PaleGreen">green</div></td>
+      <td><div style="background-color: yellow">yellow</div></td>
+      <td><div style="background-color: red">red</div></td>
+    </tr>
+  </table>
 </html>
